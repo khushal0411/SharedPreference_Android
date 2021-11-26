@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/onetimebackground"
+
+    tools:context=".AddItemFragment">
+
+    <RelativeLayout
+        android:id="@+id/rl_additem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/addstudentheading"/>
+
+        <EditText
+            android:id="@+id/et_upname"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/edittexttheme"
+
+            android:hint=" Enter Student Name"/>
+
+        <EditText
+            android:id="@+id/et_upstream"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="240dp"
+            android:background="@drawable/edittexttheme"
+            android:hint=" Enter Student Stream"></EditText>
+
+        <EditText
+            android:id="@+id/et_upid"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/edittexttheme"
+            android:hint=" Enter Student Id"></EditText>
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="440dp"
+            android:backgroundTint="#E17ADB"
+            android:text="Add "
+            android:textAllCaps="false"
+            app:cornerRadius="20dp"
+            app:icon="@drawable/addnew"></Button>
+    </RelativeLayout>
+
+</FrameLayout>

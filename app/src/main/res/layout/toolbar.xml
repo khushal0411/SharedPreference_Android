@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:minHeight="?attr/actionBarSize"
+    android:textAlignment="center"
+   app:titleMarginStart="80dp"
+  app:titleTextColor="@color/white"
+    app:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"
+    android:background="?android:textColorPrimary">
+
+</androidx.appcompat.widget.Toolbar>

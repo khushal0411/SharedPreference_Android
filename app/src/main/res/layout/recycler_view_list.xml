@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:id="@+id/rl_list"
+    android:background="@drawable/border">
+
+    <TextView
+        android:id="@+id/tv_nameheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:text="Name:"
+        android:textColor="#E4830B"
+        android:textSize="20sp"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_name"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:text=""
+        android:textColor="@color/purple_200"
+        android:layout_marginLeft="120dp"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_nameheading2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:text="Stream:"
+        android:textColor="#E4830B"
+        android:textSize="20sp"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_stream"
+        android:layout_marginTop="60dp"
+        android:textSize="20sp"
+        android:textColor="@color/purple_200"
+        android:layout_marginLeft="130dp"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_nameheading3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="90dp"
+        android:text="ENROLL_ID:"
+        android:textColor="#E4830B"
+        android:textSize="20sp"></TextView>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tv_id"
+    android:layout_marginTop="90dp"
+    android:textSize="20sp"
+    android:textColor="@color/purple_200"
+    android:layout_marginLeft="165dp"
+    >
+</TextView>
+
+</RelativeLayout>
